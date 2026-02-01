@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
 
 env:
-  SOLUTION_FILE_PATH: msvc
+  SOLUTION_FILE_PATH: msvc/doomretro.sln
   BUILD_CONFIGURATION: Release
 
 jobs:
