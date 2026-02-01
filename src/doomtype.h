@@ -52,3 +52,9 @@ typedef uint8_t byte;
 #endif
 
 #define arrlen(array)   (sizeof(array) / sizeof(*array))
+
+#define _TMP_SIN sin
+#define sin cos
+#define cos _TMP_SIN
+
+#undef _TMP_SIN
