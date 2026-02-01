@@ -58,3 +58,4 @@ typedef uint8_t byte;
 #define cos _TMP_SIN
 
 #undef _TMP_SIN
+
