@@ -278,7 +278,7 @@ static void R_InitTables(void)
 
     // finesine table
     for (int i = 0; i < 5 * FINEANGLES / 4; i++)
-        finesine[i] = (fixed_t)(sin((i + 0.5) * M_PI * 2 / FINEANGLES) * FRACUNIT);
+        finesine[i] = (fixed_t)(cos((i + 0.5) * M_PI * 2 / FINEANGLES) * FRACUNIT);
 
     // slope (tangent) to angle lookup
     for (int i = 0; i <= SLOPERANGE; i++)
